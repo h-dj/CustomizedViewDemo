@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/paintStyle"
+            android:title="画笔样式"
+            >
+            <menu>
+                <item
+                    android:id="@+id/paint"
+                    android:title="画笔"/>
+                <item
+                    android:id="@+id/eraser"
+                    android:title="橡皮擦"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/paintColor"
+            android:title="画笔颜色"
+            >
+            <menu>
+                <item
+                    android:id="@+id/color_black"
+                    android:title="黑色"/>
+                <item
+                    android:id="@+id/color_red"
+                    android:title="红色"/>
+                <item
+                    android:id="@+id/color_green"
+                    android:title="绿色"/>
+                <item
+                    android:id="@+id/color_blue"
+                    android:title="蓝色"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/shape"
+            android:title="形状">
+            <menu>
+                <item
+                    android:id="@+id/rect"
+                    android:title="矩形"/>
+
+                <item
+                    android:id="@+id/oval"
+                    android:title="椭圆"/>
+
+                <item
+                    android:id="@+id/arr"
+                    android:title="箭头"/>
+
+                <item
+                    android:id="@+id/path"
+                    android:title="路径"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/cancle"
+            android:title="撤销"/>
+
+        <item
+            android:id="@+id/clear"
+            android:title="清空"/>
+        <item
+            android:id="@+id/recover"
+            android:title="恢复"/>
+        <item
+            android:id="@+id/save"
+            android:title="保存"/>
+    </group>
+</menu>
